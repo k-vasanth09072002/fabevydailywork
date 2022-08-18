@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <titele>form</titele>
+    <style>
+        form{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+        
+        <form enctype="multipart/form-data">
+            <fieldset>
+                <legent>form</legent><br><br><br>
+                <img src="E:\17aug\image\jobs logo.png" alt="image" width="150" height="100"><br>
+                
+                <input type="text" id="name"placeholder="enter name"><br><br>
+                <input type="email" id="email"placeholder="email"><br><br>
+                <input type="password"id="password"placeholder="password"><br><br>
+                <input type="date"><br>
+                <input type="radio"name="gender">male<br>
+                <input type="radio" name="gender">female<br><br>
+                
+                <label for="html">html</label><input type="checkbox" id="html" name="lange1">
+                <label for="css">css</label><input type="checkbox"id="css" name="lange2">
+                <label for="js">js</label><input type="checkbox"id="js"name="lange3"><br><br>
+                <select name="job" id="jobs">
+                    <option value="jobs" name="jobs">jobs</option>
+                    <option value="zoho"name="zoho">zoho</option>
+                    <option value="wipro" name="wipro">wipro</option>
+                    <option value="infosys" name="infosys"> infosys</option><br><br>
+                    <label>search</label><input type="url" placeholder="search"><br>
+                    <input type="range" min="0"max="40"><br>
+                    <label>tell phone</label><input type="tell" pattern="[0-9]{3}-[0-9]{2}" placeholder="123-22-123"><br><br>
+               <label> phone number</label><input type="call" pattaern="733921"placeholder=" phone numbers"><br><br>
+                </select>
+                <button type="submit">submit</button>
+                <input type="reset">
+                <input type="file">
+            </fieldset>
+        </form>
+</body>
+</html>
