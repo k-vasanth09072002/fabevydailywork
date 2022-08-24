@@ -1,0 +1,47 @@
+.top{
+	display:flex-right;
+}
+.top{
+	background-color:#ADD8E6;
+
+}
+ .the{
+	 color:blue;
+	 text-align:center;
+ }
+.new1{
+	margin:30px;
+	float:right;
+	top:100%;
+	float:top;
+	margin-bottom:90px;
+	
+}
+.crt{
+	background-color:yellow;
+}
+.y{
+	text-align:right;
+}
+header{
+	background-color:yellow;
+}
+.new2{
+	display:flex;
+	padding:15px;
+}
+/*.container{
+	background-color:blue;
+}*/
+.hcont{
+	display:flex;
+}
+.cright{
+	flex-basis:600px;
+}
+.cleft{
+	flex-basis:800px;
+}
+.jk{
+	color:blue;
+}
