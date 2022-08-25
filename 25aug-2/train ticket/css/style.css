@@ -1,0 +1,30 @@
+.cright{
+	background-color:gray;
+	overflow:hidden;
+}
+.cright a{
+	text-decoration:none;
+	float:right;
+	padding:14px 16px;
+	color:yellow;
+}
+body{
+	background-image:url("./train img2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.top{
+	float:right;
+	color:orange;
+	margin:12px;
+	border:5px solid;
+	border-color:red;
+	
+}
+li::marker{
+	color:red;
+}
+li{
+	color:white;
+}
