@@ -1,0 +1,54 @@
+.oil a{
+	text-decoration:none;
+	
+}
+.oil a:hover{
+	color:red;
+}
+
+
+
+p{
+	background-color:red;
+	color:white;
+	text-align:center;
+}
+a{
+	line-height:90px;
+	padding:10px;
+}
+h1{
+	color:#DE7214;
+	text-align:center;
+}
+.site1{
+	color:#0D8F34;
+}
+.buty{
+	width:150px;
+	background-color:red;
+}
+.he{
+	display:flex;
+}
+.he2{
+	display:flex;
+
+}
+.view{
+	display:flex;
+}
+.good{
+	text-align:center;
+	padding:5px;
+	text-decoration:none;
+	background-color:#CFE8E8;
+}
+.good a:hover{
+	color:red;
+	
+}
+.lev{
+	text-align:right;
+	
+}
