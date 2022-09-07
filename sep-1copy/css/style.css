@@ -7,23 +7,29 @@
 
 .section{
 	background-image:url("./hero-bg.jpg");
+	color:black;
 	height:80vh;
 	width:100%;
 	background-size:cover;
+	
 }
+
  .header{
 	 display:flex;
 	 justify-content:space-between;
+	 background:black;
+	
+	 
  }
 .header a{
-	 background-color:red;
+	 color:white;
 	 height:100px;
 	 text-decoration:none;
 	 padding:5px;
      text-align:right;	 
 }
-.header12{
-	
+.headmain{
+	color:white;
 }
 
 .flex{
@@ -37,14 +43,29 @@
 	
 	
 }
+.flex button{
+	
+	border-color:orange;
+	width:150px;
+	height:40px;
+	border-radius:50px;
+	background-color:gray;
+}
+.flex button:hover{
+	background-color:orange;
+}
 .page2{
 	height:700px;
-	background-color:brown;
 	
+	
+}
+.page10 img {
+	
+	filter:grayscale(100%)
 }
 .icon{
 	height:100px;
-	background-color:blue;
+	
 	display:flex;
 	align-items:center;
 	
@@ -59,6 +80,7 @@
 .box1 img{
 	width:100px;
 	height:50px;
+	
 }
 .box2{
 	background-color:white;
@@ -108,18 +130,16 @@
 	height:50px;
 }
 .div1{
-	background-color:black;
-	width:1200px;
-	height:500px;
+	
+	
 	margin-left:60px;
 	margin-top:30px;
 	display:flex;
 	justify-content:space-between;
 }
 .imges{
-	background-color:orange;
-	width:430px;
-	height:410px;
+
+	
 	margin-left:30px;
 	margin-top:50px;
 }
@@ -128,49 +148,61 @@
 	height:410px;
 }
 .imgs{
-	background-color:orange;
+	
 	width:430px;
 	height:410px;
-	margin-right:30px;
+	margin-right:350px;
 	margin-top:50px;
 }
 .div2{
-	background-color:red;
+	background-color:;
 	width:350px;
 	height:100px;
-	margin-left:45px;
+	font-size:16px;
+	
 	margin-top:15px;
 }
 .div3{
 	background-color:white;
 	width:350px;
 	height:250px;
-	margin-left:45px;
+	margin-left:4px;
 	margin-top:15px;
 	display:flex;
 	justify-content:space-between;
 }
-.div4{
-	background-color:yellow;
-	width:130px;
-	height:200px;
-	margin-left:30px;
-	margin-top:40px;
+.color1{
+	font-size:50px;
 }
+.div4{
+	background-color:;
+	width:350px;
+	height:200px;
+	height:200px;
+	
+	margin-top:40px;
+	
+}
+.color2{
+	font-size:50px;
+}
+
 .div5{
-    background-color:yellow;
-	width:130px;
+    background-color:;
+	width:300px;
 	height:200px;
 	margin-right:30px;
 	margin-top:40px;
 }
 .project1{
-	background-color:green;
+	background-color:;
 	width:1350px;
 	height:100px;
 	padding-top:20px;
 	display:flex;
 	justify-content:space-between;
+	
+	
 }
 .pro2{
 	background-color:white;
@@ -179,6 +211,7 @@
 	margin-left:40px;
     margin-top:10px;
 	text-align:center;
+
 }
 .pro3{
 	background-color:white;
@@ -207,21 +240,43 @@
 }
 
 .service1{
-	background-color:gray;
+	
 	width:1350px;
 	height:1500px;
 	padding-top:40px;
 }
 .service2{
-	background-color:yellow;
+	background-color:;
 	width:1330px;
 	height:200px;
 	margin-left:10px;
+	text-align:center;
 	
+	
+}
+.service2 h1{
+	font-size:40px;
+	
+} 
+.service2 p{
+	padding-top:25px;
+}
+hr{
+	width:60px;
+	margin-left:640px;
+
+	
+	
+	
+}
+.color3{
+	font-size:50px;
+	padding-top:70px;
+	color:blue;
 }
 .service3 {
 	
-	background-color:pink;
+	background-color:white;
 	width:1250px;
 	height:1000px;
 	margin-left:50px;
@@ -241,51 +296,78 @@
 	margin-top:60px;
 }
 
+
 .service4{
-	background-color:red;
+	background-color:white;
 	width:300px;
 	height:400px;
 	margin-left:20px;
 	margin-top:20px;
 }
+.color5{
+	font-size:50px;
+	padding-top:70px;
+	color:orange;
+}
 .service5{
-	background-color:red;
+	background-color:white;
 	width:300px;
 	height:400px;
 	
 	margin-top:20px;
 
 }
+.color6{
+	font-size:50px;
+	padding-top:70px;
+	color:red;
+}
 .service6{
-	background-color:red;
+	background-color:white;
 	width:300px;
 	height:400px;
 	margin-right:20px;
 	margin-top:20px;
 }
+.color7{
+	font-size:50px;
+	padding-top:70px;
+	color:gray;
+}
+
 .service7{
-	background-color:red;
+	background-color:white;
 	width:300px;
 	height:400px;
 	margin-left:20px;
 	margin-top:20px;
 }
+.color8{
+	font-size:50px;
+	padding-top:70px;
+	color:red;
+}
 .service8{
-	background-color:red;
+	background-color:white;
 	width:300px;
 	height:400px;
 	margin-right:20px;
 	margin-top:20px;
 }
+.color9{
+	font-size:50px;
+	padding-top:70px;
+	color:green;
+}
 .service9{
-	background-color:red;
+	background-color:white;
 	width:300px;
 	height:400px;
 	margin-right:20px;
 	margin-top:20px;
 }
 .call-1{
-	background-color:yellow;
+	background-color:gray;
 	width:100%;
 	height:200px;
 	text-align:center;
@@ -294,25 +376,55 @@
 	padding-top:40px;
 	
 }
+.try{
+	border-color:orange;
+	width:150px;
+	height:40px;
+	border-radius:50px;
+	background-color:gray;
+	
+}
+.try:hover{ 
+background-color:#D9A004;
+}
 .test{
-	background-color:pink;
+	background-color:white;
 	width:100%;
 	height:600px;
 	padding-top:50px;
 	margin-top:20px;
 }
 .test-1{
-	background-color:black;
+	background-color:white;
 	width:1200px;
-	height:500px;
+	height:800px;
 	margin-left:70px;
 	margin-top:40px;
 }
+.vasa1{
+	color:orange;
+}
+.vasa2{
+		color:orange;
+}
+.vasa3{
+		color:orange;
+}
+.vasa4{
+		color:orange;
+}
+.vasa5{
+		color:orange;
+}
+.vasa6{
+		color:orange;
+}
+
 .test-2{
 	background-color:white;
 	width:250px;
 	height:100px;
-	margin-left:550px;
+	margin-left:470px;
 	text-align:center;
 	padding-top:20px;
 	
@@ -321,26 +433,51 @@
 
 	width:1100px;
 	height:350px;
-	background-color:red;
+	background-color:white;
 	margin-left:30px;
 	display:flex;
 	justify-content:space-between;
 }
+.lest1{
+	text-align:20px;
+}
+.lest2{
+	width:90px;
+	border-radius:50%;
+
+	
+}
 .test-3{
-	background-color:green;
+	background-color:white;
 	width:300px;
 	height:250px;
 	margin-left:30px;
 	margin-top:30px;
 }
+.lest3{
+	text-align:20px;
+}
+
+.lest4{
+	border-radius:50%;
+	width:90px;
+	
+}
 .test-4{
-	background-color:green;
+	background-color:white;
 	width:300px;
 	height:250px;
 	margin-top:30px;
 }
+.lest5{
+	text-align:20px;
+}
+.lest6{
+	width:90px;
+	border-radius:50%;
+}
 .test-5{
-	background-color:green;
+	background-color:white;
 	width:300px;
 	height:250px;
 	margin-right:30px;
@@ -362,14 +499,18 @@
 	padding-top:30px;
 }
 .port-2{
-	background-color:yellow;
+	background-color:white;
 	height:700px;
 	width:1350px;
 	margin-top:20px;
-	padding-top:30px;
+	padding-top:90px;
 	display:flex;
 	justify-content:space-between;
 	flex-wrap:wrap;
+}
+.lop p{
+	text-align:center;
+	display:flex;
 }
 .port-3{
 	background-color:black;
@@ -463,17 +604,18 @@
 	height:200px;
 }
 .team{
-	background-color:pink;
+	background-color:white;
 	width:100%;
 	height:600px;
 	
 }
 .team-1{
-	background-color:blue;
+	background-color:white;
 	width:100%;
-	height:250px;
-	padding-top:20px;
-	margin-top:15px;
+	height:150px;
+	padding-top:40px;
+	margin-top:45px;
+	
 }
 .team-2{
 	background-color:white;
@@ -488,9 +630,9 @@
 
 
 .team-head{
-	background-color:gray;
+	background-color:white;
 	width:1250px;
-	height:400px;
+	height:500px;
 	margin-left:50px;
 	display:flex;
 	justify-content:space-between;
@@ -541,13 +683,13 @@
 	height:300px;
 }
 .pricing{
-	background:yellow;
+	background:white;
 	width:100%;
 	height:1100px;
 	
 }
 .pricing-flex{
-	background:blue;
+	background:white;
 	width:100%;
 	height:200px;
 	padding-top:40px;
@@ -562,7 +704,7 @@
 	
 }
 .pricing-main{
-	background-color:pink;
+	background-color:white;
 	width:1240px;
 	height:500px;
 	margin-left:40px;
@@ -571,13 +713,38 @@
 	display:flex;
 	justify-content:space-between;
 }
+.prise{
+	width:70px;
+	height:30px;
+	margin-top:50px;
+	
+}
+.prise1{
+	width:70px;
+	height:30px;
+	margin-top:50px;
+	background-color:orange;
+	
+}
+.prise2{
+	width:70px;
+	height:30px;
+	margin-top:50px;
+	
+}
+.prise3{
+	width:70px;
+	height:30px;
+	margin-top:50px;
+	
+}
 .pricing-1{
-	background-color:black;
+	background-color:white;
 	width:200px;
 	height:300px;
 	margin-left:30px;
 	margin-top:100px;
-	color:white;
+	color:black;
 	text-align:center;
 	padding-top:30px;
 }
@@ -585,15 +752,19 @@
 	padding-top:30px;
 }
 .pricing-2{
-	background-color:black;
+	background-color:white;
 	width:200px;
 	height:300px;
 	margin-right:40px;
 	margin-top:100px;
-	color:white;
+	color:black;
 	text-align:center;
 	padding-top:30px;
 	
+}
+.pricing-2 h1{
+	background-color:orange;
+	height:30px;
 }
 button{
 	margin-bottom:10px;
@@ -602,12 +773,12 @@ button{
 	padding-top:30px;
 }
 .pricing-3{
-	background-color:black;
+	background-color:white;
 	width:200px;
 	height:300px;
 	margin-right:40px;
 	margin-top:100px;
-	color:white;
+	color:black;
 	text-align:center;
 	padding-top:30px;
 	
@@ -616,12 +787,12 @@ button{
 	padding-top:30px;
 }
 .pricing-4{
-	background-color:black;
+	background-color:white;
 	width:200px;
 	height:300px;
 	margin-right:40px;
 	margin-top:100px;
-	color:white;
+	color:black;
 	text-align:center;
 	padding-top:30px;
 	
@@ -629,74 +800,123 @@ button{
 }
 .pricing-4 p{
 	padding-top:30px;
+}
 .asked{
-	background-color:brown;
+	background-color:white;
 	width:100%;
 	height:1200px;
 }
 .asked-head{
-	background-color:blue;
+	background-color:white;
 	width:100%;
-	height:150px;
+	height:250px;
 	padding-top:40px;
 }
+
+
 .asked-left{
-	background-color:white;
-	width:200px;
+	background-color:;
+	width:400px;
 	height:100px;
-	margin-left:600px;
+	margin-left:500px;
 	margin-top:1px;
 }
+.asked-left p{
+	text-align:center;
+}
+.asked-left h1{
+	
+	font-size:20px;
+}
+.asked-left hr{
+	margin-left:120px;
+	width:150px;
+}
+
 .asked-main{
-	background-color:black;
+	background-color:;
 	width:1200px;
 	height:900px;
 	margin-left:50px;
 	padding-top:40px;
 }
 .asked-1{
-	background:yellow;
+	background:white;
 	width:1100px;
-	height:100px;
+	height:150px;
 	margin-top:50px;
 	margin-left:30px;
 	
 }
+	
+
+.asked-1 h5{
+	margin-left:25px;
+	margin-top:2px;
+	color:orange;
+	
+}
+.iconcolor2{
+	color:orange;
+	margin-top:10px;
+	
+}
+.iconcolor3{
+	
+	color:orange;
+	margin-top:25px;
+}
+.asked-2 h5{
+	margin-left:25px;
+	color:orange;
+}
+.asked-3 h5{
+	margin-left:25px;
+	color:orange;
+}
+.asked-4 h5{
+	margin-left:25px;
+	color:orange;
+}
+.asked-5 h5{
+	margin-left:25px;
+    color:orange;	
+}
 .asked-2{
-	background:yellow;
+	background:white;
 	width:1100px;
 	height:100px;
 	margin-top:50px;
 	margin-left:30px;
 }
 .asked-3{
-	background:yellow;
+	background:white;
 	width:1100px;
 	height:100px;
 	margin-top:50px;
 	margin-left:30px;
 }
 .asked-4{
-	background:yellow;
+	background:white;
 	width:1100px;
 	height:100px;
 	margin-top:50px;
 	margin-left:30px;
 }
 .asked-5{
-	background:yellow;
+	background:white;
 	width:1100px;
 	height:100px;
 	margin-top:50px;
 	margin-left:30px;
 }
 .contact{
-	background-color:yellow;
+	background-color;
 	width:100%;
 	height:1200px;
 }
 .contact-main{
-	background-color:green;
+	background-color:;
 	width:100%;
 	height:150px;
 	padding-top:30px;
@@ -706,14 +926,22 @@ button{
 	width:300px;
 	height:100px;
 	margin-left:500px;
+	
+}
+.contact-center h3{
+	
+	padding-top:20px;
+	font-size:50px;
 }
 .contact-right{
-	background-color:pink;
+	background-color:;
 	width:1250px;
 	height:900px;
 	margin-left:30px;
 	margin-top:50px;
 	padding:150px;
+	display:flex;
+	justify-content:space-between;
 }
 
 	
@@ -722,36 +950,90 @@ button{
 	width:600px;
 	height:500px;
 	padding-top:50px;
+	
 }
 .contact-2{
-	background-color:blue;
+	background-color:;
 	width:600px;
 	height:200px;
 	
 }
 .contact-3{
-	background-color:red;
-	width:150px;
-	height:150px;
+	
 	margin-top:70px;
 	margin-left:50px;
+	align-items:center;
 }
-.contact-4{
-	background-color:red;
-	width:150px;
-	height:150px;
-	margin-left:150px;
-	margin-top:100px;
+.idea{
+	display:flex;
+	justify-content:space-between;
+}
+.rose {
+	align:center;
+}
+.row1{
+	color:orange;
+	font-size:50px;
+	text-align:center;
+	
 	
 }
-.contact-use{
-	background-color:red;
+.contact-2 p{
+	text-align:center;
+}
+.row2{
+	color:orange;
+	font-size:30px;
+	text-align:center;
+	
+}
+.row3{
+	color:orange;
+	font-size:30px;
+	text-align:center;
+	
+	
+}
+.contact-3 p,h3{
+	 text-align:center;
+}
+.contect-4{
+	
+	margin-right:100px;
+	margin-top:70px;
+}
+.contect-22{
+	text-align:center;	
+	color:orange;
+}
+.contect-use{
+	margin-left:10px;
+	margin-bottom:80px;
+}
+.car{
+	  display:flex;
+	  justify-content:space-between;
+	  padding-top:180px;
+}
+.car-2{
+	width:380px;
+	
+}
+.message{
+	height:100px;
+	width:100%;
+	
+}
+.car-4{
+	background-color:orange;
 	width:150px;
-	height:200px;
-	margin-right:10px;
+	height:40px;
+	border-radius:20%;
+	border-color:orange;
+	margin-left:100px;
 }
 .use{
-	background-color:brown;
+	background-color:white;
 	width:100%;
 	height:600px;
 	padding-top:200px;
@@ -763,8 +1045,73 @@ button{
 	width:200px;
 	height:300px;
 	margin-left:40px;
-	padding-top:100px;
+	padding-top:10px;
+	
 }
+.use-head p{
+	text-align:left;
+	
+}
+.use-head h3{
+	text-align:left;
+}
+.use-1 h3{
+	text-align:left;
+	
+}
+.use-2 h3{
+	text-align:left;
+	
+}
+.same{
+	padding:5px;
+}
+.same{
+	color:orange;
+	font-size:10px;
+	
+}
+
+.same{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+.same1{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+.same2{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+.same3{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+
+.same4{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+
+
+
+
+
 .use-1{
 	background-color:white;
 	width:200px;
@@ -777,9 +1124,72 @@ button{
 	width:200px;
 	height:300px;
 }
+.con{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+	
+}
+.con1{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+.con2{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+.con3{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+.con4{
+	color:orange;
+	font-size:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+	
+	
+
+
+
 .use-3{
-	background-color:blue;
+	background-color:white;
 	width:300px;
 	height:200px;
 	margin-right:10px;
+}
+.use-3 h5,p{
+	padding:10px;
+}
+.but{
+	background-color:orange;
+	width:100px;
+	height:40px;
+	border-radius:20%;
+}
+input{
+	padding:10px;
+}
+.later-main{
+	background-color:gray;
+	widows:900px;
+	height:100px;
+	display:flex;
+	justify-content:space-between;
+}
+.later-2{
+	padding-top:30px;
+	margin-right:60px;
+}
+.later-1{
+	margin-left:50px;
+	padding-top:20px;
 }
