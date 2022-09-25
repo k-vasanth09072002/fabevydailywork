@@ -1,0 +1,25 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+	
+}
+.container{
+	width:1200px;
+	margin:auto;
+	
+}
+header {
+	
+	color:red;
+	display:flex;
+	justify-content:space-between;
+	
+	
+	
+}
+header li{
+	text-declarection
+}
