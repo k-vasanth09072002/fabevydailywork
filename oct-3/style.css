@@ -1,0 +1,172 @@
+
+/*simple selectors*/
+
+
+
+#first {
+
+  color:red;
+  font-size:30px;
+  
+  /*id selectors*/
+  
+}
+
+
+.three{
+	
+	color:green;
+	font-size:30px;
+	
+	/*class selector*/
+}
+
+*{
+	
+	margin:10px;
+	padding:10px;
+	/*univeresal selector*/
+}
+
+
+/*grouping selectors*/
+
+
+h3,h4{
+	
+	color:blue;
+}
+
+
+
+/*combinator selectors*/
+
+
+.combinator p{
+
+background-color:orange;
+font-size:30px;	
+
+/*descendant selector*/
+}
+
+.combinator > h2{
+	
+	color:green;
+	background-color:black;
+	padding:10px;
+	/*child slector*/
+}
+
+
+.combinator h1 + p{
+	 
+	color:blue; 
+	
+	/*adjacent selectors*/
+}
+
+.general p ~ span{
+	background-color:red;
+	color:blue;
+	
+	/*genaral selector*/
+}
+
+
+/*3.psuedo-element-selectors*/
+
+
+
+.psuedo-element h2::first-line{
+	
+	
+	color:blue;
+	font-size:30px;
+	/*first-line psuedo element*/
+	
+	
+}
+
+.psuedo-element h3::first-letter{
+	
+	color:red;
+	font-size:45px;
+	font-weight:bold;
+	/* first-letter psuedo element*/
+
+}
+
+
+
+.psuedo-element p::before{
+	
+	content:"<h2>!DOCTYPE</h2>";
+	color:red;
+	font-size:30px;
+    /*before psuedo element*/
+}
+
+
+.psuedo-element p::after{
+	content:"im a developer";
+	color:green;
+	text-transform:uppercase;
+	font-size:30px;
+	/*after psuedo- element*/
+}
+
+
+.psuedo-element ul li::marker{
+	
+	color:green;
+	font-size:50px;
+	
+	/*marker psuedo-element*/
+	
+}
+.psuedo-element .in li::marker{
+	color:red;
+	font-size:20px;
+	
+}
+
+
+::selection{
+	color:white;
+	background-color:green;
+	/*selection psuedo element*/
+	
+}
+
+/*4.psuedo class selector*/
+
+.psuedo-class a:link{
+	
+	color:yellow;
+	/*link psuedo class*/
+	
+}
+.psuedo-class a:visited{
+	
+	color:red;
+	/*visited psuedo class*/
+	
+	
+}
+
+.psuedo-class p:hover{
+	
+	color:green;
+	background-color:yellow;
+	font-size:30px;
+}
+
+.psuedo-class a:active{
+	color:blue;
+	/*when clicking the links*/
+}
+
+
+
+
