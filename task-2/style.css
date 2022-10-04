@@ -1,0 +1,129 @@
+
+.container{
+	
+	width:1200px;
+	margin:auto;
+}
+
+
+
+.main h1{
+	text-align:center;
+	
+}
+
+
+.main h1::after{
+	content:"";
+	width:5%;
+	height:4px;
+	background-color:#16D4EA;
+	position:relative;
+	margin:auto;
+	display:flex;
+	top:0.5rem;
+}
+
+p{
+	text-align:center;
+}
+
+
+.box-flex{
+	display:flex;
+}
+
+.box1{
+	width:300px;
+	height:600px;
+	padding:15px;
+	background-color:white;
+	box-shadow:0 0 3px rgba(0,0,0,0.1);
+}
+
+.box1 h2{
+	text-align:center;
+	padding-top:10px;
+	background-color:#DDEEEB;
+	width:100%;
+	height:50px;
+}
+
+.calls{
+	
+	color:#16D4EA;
+	font-size:30px;
+}
+
+.spanscal{
+	color:#16D4EA;
+	font-size:20px;
+}
+
+
+.box1 h3{
+
+text-align:center;
+	
+}
+s{
+	margin-left:55px;
+}
+
+button{
+ 
+width:150px;
+height:50px;
+border-radius:10px;
+background-color:#16D4EA;
+ color:white;
+ border:none;
+ margin-left:50px;
+ margin-top:50px;
+}
+
+h4{
+	
+	background-color:#05C8DF;
+		width:100%;
+	height:50px;
+	text-align:center;
+	padding-top:15px;
+	color:white;
+}
+
+
+.but{
+	
+	margin-left:70px;
+}
+
+.cots{
+	margin-left:60px;
+}
+.close{
+	
+	padding:20px 30px;
+	padding-top:20px;
+	
+	
+}
+
+.gas{
+	margin-top:95px;
+	
+}
+
+.site p{
+	width: 106px;
+    height: 30px;
+    background-color: #05C8DF;
+    padding-top: 12px;
+    position: relative;
+    bottom: 438px;
+    left: 184px;
+    rotate: 49deg;
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
