@@ -47,7 +47,7 @@ body{
 	color:red;
 	}
 .fontall{
-	font: italic 12pt arial;
+	font: italic 12pt arial yellow;
 	}
 	
 /*Text properties*/
@@ -95,6 +95,13 @@ body{
 	color:blue;
 	font-size:20px
 	}
+	
+.low{
+	
+	text-transform:lowercase;
+}	
+	
+	
 .right{
 	text-align:right;
 	color:blue;
@@ -116,3 +123,36 @@ body{
 .percentage{
 	text-indent:20%;
 	}
+	
+	
+	/*color-properties start*/
+	
+.head3{
+	color:red;
+}	
+
+.rgb{
+	font-weight:bold;
+	color: rgb (255, 99, 71);
+}
+
+.rgba{
+	color:rgba(225,93,75,0.6);
+	
+}
+
+.hsl{
+	
+	color:hsl(0, 100%, 50%);
+	
+	
+}
+
+.hsla{
+	color:hsl(240, 100%, 50%);
+}
+
+.hex{
+	color:#ff8d00;
+}	
+	/*color-properties-end*/
