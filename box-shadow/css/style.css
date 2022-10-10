@@ -1,0 +1,19 @@
+section{
+	
+	width:20%;
+	height:50vh;
+	
+	box-shadow:5px 10px  10px 0px blue ;/*0 0 0 0 color*/
+}
+
+h2{
+	text-shadow:0px 0px 10px red;
+}
+
+
+
+div {
+	height:50vh;
+	width:25%;
+	box-shadow:5px 6px 10px 5px red inset;
+}
