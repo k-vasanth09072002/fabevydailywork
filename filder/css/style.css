@@ -1,0 +1,105 @@
+*{
+	margin:50px 0px;
+	padding:0;
+	box-shadow:border-box;
+}
+
+.img-1 img{
+	
+	width:300px;
+	height:300px;
+	filter:grayscale(100%);
+}
+
+
+.img-2 img{
+	
+	width:300px;
+	height:300px;
+	filter:blur(5px);
+}
+
+
+.nature img {
+	
+	width:500px;
+	height:500px;
+    position:absolute;
+	left:0px;
+	top:0px;
+	z-intex:-1;
+	filter:blur (35px);
+
+}
+
+
+.sun img{
+	
+     border-radius:50%;
+	 display:block;
+	 margin:auto;
+	 height:auto;
+	 max-width:60%;
+
+	
+}
+
+
+.img-4 img{
+	
+	filter:brightness(100%);
+	
+}
+
+
+.img-5 img{
+	width:300px;
+	height:300px;
+	filter:contrast(100%);
+}
+
+
+
+.img-6 img{
+	width:300px;
+	height:300px;
+    filter:drop-shadow(10px 8px 10px red);
+
+}
+
+
+
+.img-7 img{
+	width:500px;
+	height:500px;
+    filter:hue-rotate(360deg);	
+}	
+
+
+
+.img-8 img{
+	width:500px;
+	height:500px;
+	background:cover;
+	filter:invert(100%);
+}	
+
+
+
+
+
+.img-9 img{
+	width:500px;
+	height:500px;
+	filter:opacity(100%);
+}	
+
+
+
+
+
+.img-10 img{
+	width:500px;
+	height:500px;
+	filter:sepia(100%);
+}	
