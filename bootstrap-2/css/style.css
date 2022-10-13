@@ -1,0 +1,33 @@
+ img{
+	    width:100%;
+		
+}
+h1{
+  font-size:1.5rem
+}
+i{
+  background:#D9F2F9 ;
+  margin:0.5rem;
+  
+}  
+	  
+	   
+	   
+.heading{
+	
+	text-align:center;
+	margin-top:2rem;
+}	   
+
+.heading p{
+	color:blue;
+}	   
+
+.heading h1{
+	color:#4F51C2;
+}	   
+
+
+.col mt-4{
+	padding:20px;
+}
