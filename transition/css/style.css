@@ -1,0 +1,116 @@
+#div1{
+	height:100px;
+	width:100px;
+	background-color:red;
+	transition:background-color 2s linear;
+}
+
+#div1:hover{
+	background-color:gray;
+}
+
+#div2{
+	width:100px;
+	height:100px;
+	background:gray;
+	color:#fff;
+	transition:width 2s ease;
+}
+
+#div2:hover{
+	width:200px;
+}
+
+#div3{
+	height:100px;
+	width:100px;
+	background:purple;
+	transition:height 2s ease-in;
+	
+}
+
+#div3:hover{
+	height:200px;
+}
+
+
+#div4{
+	width:100px;
+	height:100px;
+	background:aqua;
+	transition:all 2s ease-out;
+}
+
+#div4:hover{
+	
+	margin:3rem;
+	background-color:navy;
+}
+
+
+#div5{
+	width:100px;
+	height:100px;
+	background:red;
+	transition:all 2s ease-in-out;
+}
+
+#div5:hover{
+	
+	 transform:rotate(360deg);
+}
+
+
+#div6{
+	width:100px;
+	height:100px;
+	background:blue;
+	transition:all 2s;
+}
+
+#div6:hover{
+	
+	 transform:translate(100px,200px);
+}
+
+
+#div7{
+	width:100px;
+	height:100px;
+	background:green;
+	transition:all 2s ease-in-out;
+}
+
+#div7:hover{
+	
+	 
+	 transform:matrix(2,0,0,2,0,0);
+}
+
+
+#div8{
+	width:100px;
+	height:100px;
+	background:brown;
+	transition:all 2s;
+}
+
+#div8:hover{
+	
+	 
+	 transform:scale(1,2);
+}
+
+#div9{
+	width:100px;
+	height:100px;
+	background:green;
+	transition:all 2s ease-in-out;
+}
+
+#div9:hover{
+	
+	 
+	 transform:skew(20deg,20deg);
+}
+
