@@ -1,78 +1,179 @@
-
-.para{
-	color:#a08f86;
-	font-size:2rem;
+.banercont{
+	padding-top:5rem;
+	padding-bottom:5rem;
+	
 }
-
-button{
-   color:#fd7e14;
-}
-
-h1,h2,h3,h4,h5,p{
-	    font-family: 'Raleway', sans-serif;
-}
-
-
-
-/*quasi start*/
-
-@media(min-width:390px){
-
-.quasi{
-	padding:80px 0px;
-}
-.icon{
-	color:#eb5d1e;
-	font-size:3rem;
-}
-
-.first{
-	width:100%;
-	background-color:#fef8f5;
+.baner{
+	background: #fef8f5;
 	border-bottom: 2px solid #fcebe3;
 }
 
-.font h2{
-	font-weight:bold;
+
+@media(min-width:768px){
+.leftcont h5{
+	font-size:2rem;
+}	
+}
+@media(min-width:1024px){
+.leftcont h5{
+	font-size:3rem;
+}	
+}
+.service iconify-icon{
+	font-size:2.8rem;
+	color: #f39e7a;
+}
+.abouti h4{
+	color: #7a6960;
+	margin-top:5px;
+}
+.receipt h4{
+	color: #7a6960;
+	margin-top:5px;
+}
+.iconi{
+	font-size:2.8rem;
+	color: #f39e7a;
 }
 
-.font{
-	width:100%;
-}
-}
-
-
-
-
-
-/*service start*/
-
-.service h3{
-	color:gray;
-	text-align:center;
-}
-
-.service h2{
-	text-align:center;
-	font-weight:bold;
-}
-
-.service-con iconify-icon {
-	color:#eb5d1e;
+.color iconify-icon{
 	font-size:2.5rem;
-	margin-top:1.5rem;
+	color:#eb5d1e;
+}
+/*cord*/
+.cord{
+	background:#fef8f5;
+}
+.cord1:hover{
+	border-bottom:2px solid #eb5d1e;
 	
 }
+.drib{
+	font-size:2rem;
+	color:#eb5d1e;
+}
+/*portfolio*/
 
-.service-con h5{
+.portfolio h4{
+	color:gray;
+}
+
+
+
+.total{
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	padding:5px 8px;
+	margin-bottom:1rem;
+}
+.total p{
+	margin-right:5px;
+	padding:5px 8px;
+	border-radius:8px;
 	font-weight:bold;
-	margin-bottom:1.5rem;
-	margin-top:1.5rem;
+}
+.total p:hover{
+	color:#eb5d1e;
+	transition:ease-in-out 0.5s;
+	cursor:pointer;
+}
+#all{
+	    		 
+    color:#eb5d1e;
+	
+}
+.imgs{
+	
+	position:relative;
+	z-index:1;
+}
+
+.porticons{
+	content:"";
+	top: 0;
+    bottom: 0;
+    right: 0;
+    left: 100%;
+    position: absolute;
+    background-color: rgba(122, 105, 96, 0.6);
+    z-index: 2;
+    padding: 6rem;
+    text-align: center;
+    color: #fff;
+    line-height: 3rem;
+	opacity:0;
+}
+
+.imgs:hover .porticons{
+	opacity:1;
+	transition:0.3s;
+	left:0;
+}
+
+
+.porticons iconify-icon{
+	font-size:1.5rem;
+	background-color:white;
+	border-radius:50%;
+	color:orange;
+}
+
+
+}
+/*asked start*/
+.askeds{
+	    background-color: #fef8f
+}
+
+.asked summary{
+	padding:10px;
+	border-bottom: 1px solid #eae7e5;
+	font-weight:bold;
+}
+
+.asked summary:hover{
+	color:#eb5d1e;
+}
+
+
+
+/*asked end*/
+
+/*team start*/
+
+.teams{
+	background-color:#fef8f5;
+	height:auto;
+	width:100%;
+	margin-bottom:7rem;
+}
+.team{
+	margin-top:9rem;
+}
+
+.team h4{
+	color:#c2b7b1;
 }
 
 
 
 
 
+/*team end*/
+/*join start*/
 
-/*service end*/
+.join{
+	background-color:rgb(254, 248, 245);
+}
+
+
+/* join end*/
+
+
+
+/*last start*/
+.last{
+	background-color:#fef8f5;
+}
+/* last end*/
