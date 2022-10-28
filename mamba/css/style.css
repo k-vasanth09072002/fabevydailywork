@@ -286,7 +286,8 @@ header{
 	background-position:right;
 	position:relative;
 	width:100%;
-	height:135vh;
+	height:auto;
+	padding:15px 0px;
 	z-index:1;
 }	
 
@@ -355,6 +356,7 @@ header{
 	position:relative;
 	width:100%;
 	height:auto;
+	padding: 15px 0px;
 	z-index:1;
 	
 }	
@@ -425,7 +427,8 @@ header{
 	background-position:right;
 	position:relative;
 	width:100%;
-	height:180vh;
+	height:auto;
+	padding:25px 0px;
 	z-index:1;
 		
 }	
@@ -646,7 +649,7 @@ header{
 
 .about-1 img{
 	
-	width:500px;
+	width:550px;
 	height:600px;
 	margin:20px;
 	
@@ -685,7 +688,7 @@ header{
     justify-content:center;
     margin:auto;
 	left:40%;
-	top:50%;
+	top:40%;
 }
 
 
@@ -815,14 +818,19 @@ header{
 	height:250px;
 	background: white;
 	padding:15px;
-	border-left:0.5px solid gray;
-	border-bottom:1px solid gray;
+	
 }	
 
-		
-	
-	
-	
+.bo-1{
+	border-left:1px solid gray;
+}
+
+.bo-3{
+	border-left:1px solid gray;
+}
+.bo-5{
+	border-left:1px solid gray;
+}	
 }
 
 
@@ -841,12 +849,11 @@ header{
 }	
 
 .lpsum-box1{
-	width:30%;
+	width:29%;
 	height:250px;
 	background: white;
 	padding:15px;
 
-	border-bottom:1px solid gray;
 }	
 
 .lpsum-box1 h1{
@@ -870,6 +877,25 @@ header{
  color:gray;
 
 }
+
+.bo-1{
+	border-left:1px solid gray;
+}
+
+.bo-2{
+	border-left:1px solid gray;
+}
+
+.bo-4{
+	border-left:1px solid gray;
+}
+
+.bo-5{
+	border-left:1px solid gray;
+}
+
+
+
 	
 }
 /*lpsum end*/
@@ -890,7 +916,7 @@ header{
 
 .project-box{
 	margin-top:50px;
-	width:90%;
+	width:85%;
 	height:70px;
 	background-color:#fff;
 	    padding: 30px;
@@ -925,6 +951,7 @@ header{
 .project-main{
 	display:flex;
 	flex-wrap:wrap;
+	gap:15px;
 	
 }
 
@@ -967,7 +994,7 @@ header{
 
 .project-box{
 	margin-top:50px;
-	width:150px;
+	width:230px;
 	height:70px;
 	background-color:#fff;
 	    padding: 30px;
@@ -1049,6 +1076,7 @@ header{
 	background-color:#428bca;
 	position:relative;
 	display:flex;
+	margin-bottom:2.5rem;
 }
 	
 .service-box h1{
@@ -1115,11 +1143,13 @@ header{
 	background-color:#428bca;
 	position:relative;
 	display:flex;
+	margin-bottom:2.5rem;
+	margin-top:1.5rem;
 }
 	
 .service-box h1{
 	
-	margin-bottom:1rem;
+	margin-bottom:2rem;
 }		
 }
 
@@ -1183,6 +1213,8 @@ header{
 	background-color:#428bca;
 	position:relative;
 	display:flex;
+	margin-bottom:2.5rem;
+	margin-top:1.5rem;
 }
 	
 .service-box h1{
@@ -1254,11 +1286,12 @@ header{
 	width:100%;
 	margin-top:1.5rem;
 }
+	
 .main-image{
 	width:100%;
 	position:relative;
 	z-index:1;
-}
+}	
 
 .main-img2{
 	top: 0;
@@ -1273,13 +1306,12 @@ header{
     color: #fff;
     line-height: 3rem;
 	opacity:0;
-	
+	    transition: all 1.5s ease;
 }
 
-.main-image:hover.main-img2{
+.main-image:hover .main-img2{
 	opacity:1;
 }
-
 
 @media(min-width:768px){
 	
@@ -1368,14 +1400,18 @@ header{
     color: #fff;
     line-height: 3rem;
 	opacity:0;
+	    transition: all 1.5s ease;
 }
 
 .main-image:hover .main-img2{
 	opacity:1;
 }
 
-.main-img2 i{
-	font-size:2rem;
+.main-img2 iconify-icon{
+	font-size:1.5rem;
+	background-color:white;
+	border-radius:50%;
+	color:orange;
 }
 }
 
@@ -1454,6 +1490,7 @@ header{
 	z-index:1;
 }
 	
+
 .main-img2{
 
     
@@ -1463,7 +1500,18 @@ header{
     text-align: center;
     color: #fff;
     line-height: 3rem;
+	    transition: all 1.5s ease;
 	
+	
+}
+
+.main-img2 iconify-icon{
+	 
+	padding:15px; 
+	background-color:white;
+	border-radius:50%;
+	
+   	
 }
 
 .main-image:hover .main-img2{
@@ -1510,15 +1558,19 @@ header{
 	align-items: center;
     justify-content: center;
     gap: 15px;
-    padding-top: 20px;;
+    padding-top: 5px;;
 }
 .team-img1{
 	margin-bottom: 10rem;
 	position: relative;
 	color: white;
 	
+	
 }
-.team-img1 img:hover{
+.menu-img{
+	overflow:hidden;
+}
+.team-img1:hover .menu-img img{
 	transition: 0.5s ease;
 	transform: scale(1.1);
 }
@@ -1534,6 +1586,28 @@ header{
     border-radius: 4px;
 	text-align: center;
 }
+
+
+.t-img-content h5{
+			position:relative;
+		}
+		
+		
+		.t-img-content h5::after{
+			
+			content: "";
+           position: absolute;
+          display: block;
+          width: 50px;
+         height: 2px;
+        background: #fff;
+        bottom: 0;
+       left: calc(50% - 25px);
+	   
+		}
+
+
+
 
 	@media (min-width: 768px){
 		.container{
@@ -1569,6 +1643,28 @@ header{
 		.team-img4{
 			width: 48%;
 		}
+		
+		
+		.t-img-content h5{
+			position:relative;
+		}
+		
+		
+		.t-img-content h5::after{
+			
+			content: "";
+           position: absolute;
+          display: block;
+          width: 50px;
+         height: 2px;
+        background: #fff;
+        bottom: 0;
+       left: calc(50% - 25px);
+		}
+		.menu-img{
+	overflow:hidden;
+}
+		
 	}
 	@media(min-width: 1024px){
 		.container{
@@ -1580,6 +1676,7 @@ header{
 			font-size: 3rem;
 			text-align:center;
 			padding: 3rem;
+			
 		}
 		.team-head p{
 			font-size: 30px;
@@ -1595,6 +1692,11 @@ header{
 		}
 		.team-img1{
 			width: 22%;
+			position:relative;
+		}
+		.t-img-content{
+			position:absolute;
+			
 		}
 		.team-img2{
 			width: 22%;
@@ -1605,6 +1707,26 @@ header{
 		.team-img4{
 			width: 22%;
 		}
+		.t-img-content h5{
+			position:relative;
+		}
+		
+		
+		
+		.t-img-content h5::after{
+			
+			content: "";
+           position: absolute;
+          display: block;
+          width: 50px;
+         height: 3px;
+        background: #fff;
+        bottom: 0;
+       left: calc(50% - 25px);
+		}
+		
+		
+		
 	}
 	
 /*team end*/	
@@ -1921,7 +2043,7 @@ header{
 	width:100%;
 	background-color:;
 	height:auto;
-	box-shadow: 0 0 30px rgb(214 215 216 / 50%);
+	box-shadow: 0px 0px 10px #ccc;
 	margin-bottom:20px;
 }
 
@@ -1966,7 +2088,7 @@ header{
 	width:100%;
 	padding:40px 0px;
 	height:auto;
-	box-shadow: 5px 10px 10px  rgb(214 215 216 / 60%);
+   box-shadow: 0px 0px 10px #ccc;
 }
 
 .us-icon{
@@ -2052,19 +2174,13 @@ header{
 	
 	
 	height:auto;
-	box-shadow: 5px 10px 10px  rgb(214 215 216 / 60%);;
+	box-shadow: 0px 0px 10px #ccc;
 	margin-bottom:20px;
 }
 
-.us-icon{
-	 
-	 
+.us-icon{ 
 	text-align:center;
-	padding:30px 0px;
-   
-
-
-
+	padding:30px 0px; 
 }
 
 .us-icon i{
@@ -2097,7 +2213,7 @@ header{
 
 	padding:40px 0px;
 	height: 162px;
-	box-shadow: 5px 10px 10px  rgb(214 215 216 / 60%);
+	box-shadow: 0px 0px 10px #ccc;
 }
 
 .us-icon{
@@ -2108,7 +2224,7 @@ header{
 
 }
 .us-left{
-	width:50%;
+	width:45%;
 }
 
 .us-right{
@@ -2117,7 +2233,7 @@ header{
 
 .is-main{
 	display:flex;
-	
+	gap:25px;
 	width:100%;
 }
 
@@ -2248,6 +2364,11 @@ textarea{
 	color:white;
     margin-left:300px;
 	border-color:#428bca;
+		margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+	margin-bottom:2rem;
 }		
 }
 @media(min-width:1024px){
@@ -2300,6 +2421,11 @@ textarea{
 }
 
 button.buts{
+	margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+margin-bottom:3rem;
 	align-items:center;
 }		
 }
