@@ -1,0 +1,57 @@
+
+
+
+
+@import url("b.css");
+h2{
+	color: green;
+}
+h3{
+	color: yellow;
+}
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url("Raleway-Italic.ttf");
+    src: url("Raleway-Italic.ttf") format("truetype");
+}
+.font-fac{
+    background: black;
+	font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+	color: white;
+}
+div h3{
+	background: red !important;
+}
+.key {
+  font-size: 1.5rem;
+  width: 110px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove{
+  0%{
+	left: 0px;
+	background: red;
+	}
+  25%{
+	left: 200px;
+  	background: yellow;
+    }
+  75%{
+	left: 50px;
+	background: green;
+	}
+  100%{
+	left: 100%;
+	background: blue;
+	}
+}
+h3{
+	background:red;
+	background: blue !important;
+}
+
