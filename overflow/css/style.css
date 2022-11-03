@@ -1,0 +1,96 @@
+h1{
+	color:red;
+}
+
+.index {
+	
+	position:relative;
+	z-index:1;
+	height:200px;
+	margin:30px;
+	background-color:orange;
+	border:3px solid red;
+	
+}
+
+p{
+	font-size:2rem;
+	color:green;
+}
+
+
+.index1{
+	
+	
+	position: absolute;
+  z-index:2;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: 95px;
+  height: 100px;
+}
+
+.index2{
+		position: absolute;
+  z-index: 3;
+  background:gray;
+  width: 35%;
+  left: 570px;
+  top: 135px;
+  height: 100px;
+}
+
+
+
+
+.visible{
+	background-color: yellow;
+  width:100%;
+  height: 75px;
+  border: 1px solid;
+  overflow: visible;
+}
+
+.hidden{
+		background-color: gray;
+  width:100%;
+  height: 75px;
+  border: 1px solid;
+  overflow: hidden;
+	
+}
+
+.clip{
+		background-color: red;
+  width:100%;
+  height: 75px;
+  border: 1px solid;
+  overflow: clip;
+	
+}
+
+
+.scoll{
+ background-color: coral;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+  
+  
+} 
+
+
+
+.auto{
+	
+  background-color:brown;
+  width: 60px;
+  height:60px;
+  border: 1px solid black;
+  
+  overflow-x:hidden;
+  overflow-y:scroll;
+  
+} 
