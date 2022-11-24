@@ -57,7 +57,8 @@
 
 #div5:hover{
 	
-	 transform:rotate(360deg);
+	 transform:rotate(180deg);
+	 transition:all 5s;
 }
 
 
@@ -70,7 +71,7 @@
 
 #div6:hover{
 	
-	 transform:translate(100px,200px);
+	 transform:translateY(-100px);
 }
 
 
@@ -84,7 +85,7 @@
 #div7:hover{
 	
 	 
-	 transform:matrix(2,0,0,2,0,0);
+	 transform:matrix(2,3,0,2,3,0);/*scale(a,d) skew(b,c) translate(e,f)*/
 }
 
 
@@ -98,7 +99,7 @@
 #div8:hover{
 	
 	 
-	 transform:scale(1,2);
+	 transform:scale(4,2);
 }
 
 #div9{
@@ -111,6 +112,6 @@
 #div9:hover{
 	
 	 
-	 transform:skew(20deg,20deg);
+	 transform:skew(20deg,180deg);
 }
 

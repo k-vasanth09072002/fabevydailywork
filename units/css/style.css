@@ -1,0 +1,41 @@
+/*css starts*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-size:20px;
+	width:1200px;
+}
+.container{
+	width:85%;
+	margin:auto;
+}
+
+
+/*rem*/
+.re{
+	font-size:2rem;
+}
+.vww{
+	font-size:2rem;
+	background-color:pink;
+	width:75vw;
+	
+}
+.vhh{
+	font-size:2em;
+	background-color:yellow;
+	height:50vh;
+}
+.emm{
+	font-size:2em;
+}
+.px{
+	font-size:55px;
+}
+
+/*css ends*/
+Footer

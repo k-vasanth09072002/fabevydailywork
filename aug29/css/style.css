@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	max-width:1170px;
+	margin:auto;
+	
+}
+.quickflex{
+	display:flex;
+	justify-content:space-between;
+}
+
+
+
+first a{
+	
+	color:block;
+	text-decoration:none;
+	padding:35px;
+}
+.first{
+	text-align:right;
+	margin-right:60px;
+	
+}
+.first a hover{ 
+     color:green;
+}
+
+
+
+
+.image img{
+	width:20px;
+	height:20px;
+	padding:20px;
+}
+.hav h1{
+	color:green;
+	text-align:left;
+	
+	padding-left:50px;
+	font-size:40px;
+}
+.four img{
+	
+	width:20px;
+	height:20px;
+}
+.four{
+	text-align:left;
+	text-top:left;
+	padding:20px;
+}
+.five img{
+	width:20px;
+	height:20px;
+}
+.six{
+	display:flex;
+	padding:70px;
+}
+.div1 img{
+	    width:80px;
+		height:80px;
+		padding:80px;
+}
+
+.hig hover{
+	padding:20px;
+	
+}
+.div2 img{
+	width:80px;
+	height:80px;
+	padding:80px;
+	
+}
+.div2 p{
+	padding:10px; 
+}
+h2{
+	padding:40px;
+	color:green;
+}
+.div3 img{
+	
+	width:80px;
+    height:80px; 
+    padding:80px;	
+}
+.hi h1,p{
+	text-align:center;
+}
+.big{
+	display:flex;
+	text-align:center;
+}
+.god{
+	display:flex;
+	padding:50px;
+	background-color:green;
+}
+.god1{
+	color:white;
+	
+}
+.food{
+	text-align:center;
+}
+.fod{
+	display:flex;
+}
+.fod{
+	padding:100px;
+	
+}
+.bat{
+	text-indent:125px;
+}
+.goal{
+	border-top:2px solid green;
+	border-bottom:2px solid green;
+}
+.gol{
+	border-top:3px solid green;
+	border-bottom:3px solid green;
+}

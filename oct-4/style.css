@@ -149,7 +149,7 @@ body{
 }
 
 .hsla{
-	color:hsl(240, 100%, 50%);
+	color:hsl(240, 100%, 50%, 0.5);
 }
 
 .hex{

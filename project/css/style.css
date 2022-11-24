@@ -283,6 +283,9 @@ width:50%;
 	color:#0bceaf;
 	font-size:3rem;
 }
+.vasanth h1{
+	color:white;
+}
 .call span{
 	color:red;
 	font-size:3rem;
@@ -331,6 +334,9 @@ width:50%;
 .ab span{
 	color:#0bceaf;
 	font-size:3rem;
+}
+.vasanth h1{
+	color:white;
 }
 
 .image{
@@ -656,9 +662,7 @@ width:50%;
 	color:black;
 	text-align:center;
 }
-.site img:hover{
-	background-color:red;
-}
+
 /*web end*/
 
 /*footer start*/
@@ -767,7 +771,7 @@ footer{
 	display: inline-flex;
 	gap:20px;
 	padding:20px;
-	align-items:center;
+	margin-left:470px;
 	
 }
 .icons iconify-icon{
